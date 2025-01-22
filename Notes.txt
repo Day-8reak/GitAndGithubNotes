@@ -1,0 +1,33 @@
+What is git?
+
+Git is open-spource and free "Source Control Management", also referred to SCM
+
+Ex:
+We want to fix a mistake on our website: 
+so we can make a branch (another version of the website),
+Then with this we can merge to our main after we're happy with the changes
+We can then commit and then push those changes
+- We can also revert back to a previous version if that wasn't a mistake
+
+We can run git bash as a terminal, but we can use any terminal we want to
+run git
+
+
+Git bash configuration startup:
+config your name: git config --global user.name "Maxwell Huang"
+email: git config --global user.email Maximumhuanging@gmail.com
+default branch: git config --global init.default branch main
+
+We can use clear as well, and we use cd to change directories
+- to turn a given file into a git repo we type "git init"
+When we do this it's still untracked, so git doesn't care
+
+But, if you track a file, you can revert back to a previous version if you want to
+- to track a file we write:
+git add fileName
+- to untrack a file we can:
+git rm --cached fileName
+
+To check the status of your repo (what's untracked and stuff):
+git status
+
