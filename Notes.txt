@@ -41,3 +41,5 @@ git rm --cached <fileName>
 
 
 To ignore certain files, folders, etc we can create a document named .gitignore 
+
+To make sure certain files are being ignored we type git status after modifying a file to be ignored
