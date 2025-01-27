@@ -31,3 +31,13 @@ git rm --cached fileName
 To check the status of your repo (what's untracked and stuff):
 git status
 
+
+Whenever we change/add to/edit a file it will tell you after running "git status"
+- This will move it from a file under "changes not staged for commit" to "changeds stages for commit
+
+
+To untrack a file we can:
+git rm --cached <fileName>
+
+
+To ignore certain files, folders, etc we can create a document named .gitignore 
