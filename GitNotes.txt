@@ -1,0 +1,69 @@
+    What is git?
+
+Git is open-spource and free "Source Control Management", also referred to SCM
+
+Ex:
+We want to fix a mistake on our website: 
+so we can make a branch (another version of the website),
+Then with this we can merge to our main after we're happy with the changes
+We can then commit and then push those changes
+- We can also revert back to a previous version if that wasn't a mistake
+
+We can run git bash as a terminal, but we can use any terminal we want to
+run git
+
+
+    Git bash configuration startup:
+config your name: git config --global user.name "Maxwell Huang"
+email: git config --global user.email Maximumhuanging@gmail.com
+default branch: git config --global init.default branch main
+
+We can use clear as well, and we use cd to change directories
+- to turn a given file into a git repo we type "git init"
+When we do this it's still untracked, so git doesn't care
+
+But, if you track a file, you can revert back to a previous version if you want to
+- to track a file we write:
+git add fileName
+- to untrack a file we can:
+git rm --cached fileName
+
+To check the status of your repo (what's untracked and stuff):
+git status
+
+
+Whenever we change/add to/edit a file it will tell you after running "git status"
+- This will move it from a file under "changes not staged for commit" to "changeds stages for commit
+
+
+To untrack a file we can:
+git rm --cached <fileName>
+
+
+    .gitignore
+To ignore certain files, folders, etc we can create a document named .gitignore 
+
+To make sure certain files are being ignored we type git status after modifying a file to be ignored
+To make sure certain files are being ignored we type git status after modifying a file to be ignored
+- .gitignore only ignores files created after it was created
+- So to ignore a file we either have to remove it from the git repo
+- Or we have to create a new file/rename it 
+
+We can track all the files by typing:
+git add -A 
+Or
+git add --all
+
+
+
+    Commiting
+When all files are tracked it means are in an environment called "Staging"
+
+Commiting is just taking a snapshot of the repository
+ at the current moment 
+
+Sort of like writing an entry in a journal, we can always
+go back and visit it
+
+command for commiting:
+git commit -m "Message"
