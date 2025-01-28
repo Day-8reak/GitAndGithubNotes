@@ -90,3 +90,9 @@ it just moves the file back to untracked
 
 We can also skip the staging stage:
 git commit <options> "message"
+
+test
+
+deleting a file completely (and not just from the repository):
+    git rm <fileName>
+The issue is that git tells us if we deleted a file
