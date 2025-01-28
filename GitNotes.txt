@@ -56,9 +56,9 @@ git add --all
 
 
 
-    Commiting
+    Commiting and other stages
 When all files are tracked it means are in an environment called "Staging"
-
+- staging is like a holding pen until you're ready to commit
 Commiting is just taking a snapshot of the repository
  at the current moment 
 
@@ -67,3 +67,26 @@ go back and visit it
 
 command for commiting:
 git commit -m "Message"
+
+
+To check the differences between the
+last commit and the current state of the project
+we type:
+git diff
+red text is old text, green is new text.
+
+3 different stages:
+    1. Working files: These are the untracked files
+    2. Staging: In-between phase, files in this stage after using git add
+    3. Commit: this is where we push it to the official repository on github
+
+If we added a change (moved it to staging), but we don't
+like the changes then we can use:
+git restore --staged <fileName> (more than 1)
+
+This doesn't actually remove the changes,
+it just moves the file back to untracked
+
+
+We can also skip the staging stage:
+git commit <options> "message"
