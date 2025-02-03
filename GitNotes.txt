@@ -91,8 +91,46 @@ it just moves the file back to untracked
 We can also skip the staging stage:
 git commit <options> "message"
 
-test
 
 deleting a file completely (and not just from the repository):
     git rm <fileName>
 The issue is that git tells us if we deleted a file
+
+
+    Log
+To check every commit, and it's corresponding information such
+as the id, author, date and time we can use:
+git log
+
+ Adding --oneline option gives abbreviated info
+
+
+We can use commit amend to change the message of
+the a previous commit:
+    git commit -m amend "NewMessage" --amend
+The above changes the message of the last commit
+
+We can also check the full details of the commits
+including what was changed with:
+    git log -p
+
+getting help
+    git help log
+
+Getng back to previous commit:
+    git rest <commitID>
+
+Rebasing will show us how to edit how commits appear: 
+    git rebase -i --root 
+Colon + x returns to main terunal view
+
+    Branches
+Branches are copies of main branch
+They have all the same code, so we can try to add new functionalities
+or fix a bug without risking our main branch. When satisfied with changed
+we can merge back to main branch
+
+
+This is also how developers work on the same project on the same time
+they can all work on seperate parts of the same project and then merge
+the work together when they're done
