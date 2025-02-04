@@ -118,7 +118,7 @@ getting help
     git help log
 
 Getng back to previous commit:
-    git rest <commitID>
+    git reset <commitID>
 
 Rebasing will show us how to edit how commits appear: 
     git rebase -i --root 
@@ -126,7 +126,7 @@ Colon + x returns to main terunal view
 
     Branches
 Branches are copies of main branch
-They have all the same code, so we can try to add new functionalities
+They have all the same code (when created ), so we can try to add new functionalities
 or fix a bug without risking our main branch. When satisfied with changed
 we can merge back to main branch
 
@@ -134,3 +134,16 @@ we can merge back to main branch
 This is also how developers work on the same project on the same time
 they can all work on seperate parts of the same project and then merge
 the work together when they're done
+
+Creating branch:
+    git branch brancName
+
+showing what branch you're in:
+    git branch
+Branch you're in is highlighted green and has a star
+
+Switching:
+    git switch branchName
+
+git status tells us what branch we're in
+
