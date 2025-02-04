@@ -2,3 +2,8 @@ gello
 
 
 test 2
+
+This is a test for mergeConflicts
+
+We're editing 2 seperate files and then pushing to main
+Test continued
