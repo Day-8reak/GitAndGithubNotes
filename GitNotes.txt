@@ -150,5 +150,20 @@ git status tells us what branch we're in
 to bring changes back to main branch:
 We have to switch branches and then go to main
 ex:
-    git switch a
+    git switch main
     git merge -m "back to main"
+
+Deleting branch:
+    git branch -d branchName
+
+
+
+    Merge Conflicts
+if we work on a branch, but the file we're Working
+on in main has changed since we branched out from main
+we'll have a merge conflict
+
+creating a new branch and swiching to it at the same time:
+    git switch -c branchName
+
+ 
