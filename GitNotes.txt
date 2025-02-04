@@ -170,3 +170,6 @@ creating a new branch and swiching to it at the same time:
 The part that says "head" refers to the current text in the main file
 While the other text section will be whatever the branch you're
 merging from is called (in our case it was testBranch)
+
+
+This is our second test of merging different branches together
