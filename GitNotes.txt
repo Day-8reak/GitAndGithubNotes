@@ -166,4 +166,7 @@ we'll have a merge conflict
 creating a new branch and swiching to it at the same time:
     git switch -c branchName
 
- 
+    Resolving a conflict:
+The part that says "head" refers to the current text in the main file
+While the other text section will be whatever the branch you're
+merging from is called (in our case it was testBranch)
