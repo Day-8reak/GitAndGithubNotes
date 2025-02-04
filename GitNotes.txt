@@ -173,3 +173,4 @@ merging from is called (in our case it was testBranch)
 
 
 This is our second test of merging different branches together
+second test continued
