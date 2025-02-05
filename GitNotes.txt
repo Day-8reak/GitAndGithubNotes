@@ -136,7 +136,7 @@ they can all work on seperate parts of the same project and then merge
 the work together when they're done
 
 Creating branch:
-    git branch brancName
+    git branch branchName
 
 showing what branch you're in:
     git branch
