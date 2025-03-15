@@ -203,8 +203,6 @@ This can cause merge conflicts, which suck especially on the scale of an entire 
 Given enough time you'll have to work on a bunch different files
 which significantly increases chances for merge conflicts
 
-testing
-
 
 
 Github other features:
